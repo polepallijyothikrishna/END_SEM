@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+}
+
+.app {
+  text-align: center;
+}
+
+h1 {
+  background: #c62828;
+  color: white;
+  padding: 25px;
+}
+
+h2 {
+  color: #c62828;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+input, select {
+  display: block;
+  width: 90%;
+  padding: 12px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #c62828;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card {
+  background: white;
+  margin: 15px auto;
+  padding: 15px;
+  max-width: 400px;
+  border-left: 5px solid #c62828;
+  border-radius: 8px;
+}
+
+.card p {
+  color: #444;
+}
+
+@media (max-width: 500px) {
+  .card, form {
+    margin: 15px;
+  }
+}
